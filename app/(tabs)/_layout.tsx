@@ -23,18 +23,18 @@ function CustomTabBarIcon(props: {
 }
 
 export default function TabLayout() {
-  const { isDarkMode } = useTheme();
+  const { theme } = useTheme();
 
   return (
     <Tab.Navigator
       screenOptions={{
-        tabBarActiveTintColor: "tomato",
-        tabBarInactiveTintColor: isDarkMode ? "#fff" : "gray",
+        tabBarActiveTintColor: theme.colors.tabIconSelected,
+        tabBarInactiveTintColor: theme.colors.tabIconDefault,
         tabBarStyle: {
-          backgroundColor: isDarkMode ? "#333" : "#fff",
+          backgroundColor: theme.colors.background,
         },
         tabBarIndicatorStyle: {
-          backgroundColor: "tomato",
+          backgroundColor: theme.colors.primary,
         },
       }}
     >

@@ -1,7 +1,6 @@
 import React from "react";
 import {
   TouchableOpacity,
-  Text,
   StyleSheet,
   ViewStyle,
   TextStyle,
@@ -71,7 +70,7 @@ const styles = StyleSheet.create({
   },
 
   containedButton: {
-    backgroundColor: "tomato",
+    backgroundColor: "#ff6347",
   },
   disabledContainedButton: {
     backgroundColor: "#ccc",
@@ -79,7 +78,7 @@ const styles = StyleSheet.create({
 
   outlinedButton: {
     borderWidth: 2,
-    borderColor: "tomato",
+    borderColor: "#ff6347",
     backgroundColor: "transparent",
   },
   disabledOutlinedButton: {
@@ -99,7 +98,7 @@ const styles = StyleSheet.create({
   },
 
   outlinedText: {
-    color: "tomato",
+    color: "#ff6347",
   },
   disabledOutlinedText: {
     color: "#ccc",
