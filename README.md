@@ -102,4 +102,4 @@
 
 Ви можете протестувати задеплоєну версію додатку за наступним посиланням:
 
-[Посилання на задеплоєну версію](https://expo.dev/accounts/web-shift/projects/feedly-profile/builds/867495d6-bd55-4cfb-8d5f-ddd3e02e8404)
+[Посилання на задеплоєну версію](https://expo.dev/artifacts/eas/3wXswVPeihAUis71fqLtfM.aab)
