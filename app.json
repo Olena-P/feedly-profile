@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RN-AuthFeedProfile",
-    "slug": "RN-AuthFeedProfile",
+    "name": "feedly-profile",
+    "slug": "feedly-profile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -20,7 +20,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.webshift.feedlyprofile"
     },
     "web": {
       "bundler": "metro",
@@ -32,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "15172c1f-a555-48ee-8648-af51be578760"
+      }
     }
   }
 }
